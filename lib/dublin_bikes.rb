@@ -1,5 +1,10 @@
-require "dublin_bikes/version"
+require 'dublin_bikes/version'
+require 'dublin_bikes/client'
 
 module DublinBikes
-  # Your code goes here...
+  class << self
+    def new
+      DublinBikes::Client.new
+    end
+  end
 end
