@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<station>
+  <available>3</available>
+  <free>26</free>
+  <total>29</total>
+  <ticket>0</ticket>
+  <open>1</open>
+  <updated>1366310525</updated>
+  <connected>1</connected>
+</station>

@@ -1,9 +1,11 @@
 require 'dublin_bikes/connection'
-require 'dublin_bikes/client/stations'
+require 'dublin_bikes/client/station'
+require 'dublin_bikes/client/markers'
 
 module DublinBikes
   class Client
     include DublinBikes::Connection
-    include DublinBikes::Client::Stations
+    include DublinBikes::Client::Station
+    include DublinBikes::Client::Markers
   end
 end
