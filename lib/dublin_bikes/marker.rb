@@ -10,5 +10,15 @@ module DublinBikes
     attribute :lng, Float
     attribute :open, Integer
     attribute :bonus, Integer
+
+    remove_method :open, :bonus, :full_address
+
+    def open?
+      @open == 1
+    end
+
+    def closed?
+      !open
+    end
   end
 end
