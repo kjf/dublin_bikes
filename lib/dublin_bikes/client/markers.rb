@@ -1,7 +1,7 @@
 module DublinBikes
   class Client
     module Markers
-      def markers
+      def marker_list
         response = get('carto')
         payload = response.body
         DublinBikes::MarkerList.parse(payload, single: true)

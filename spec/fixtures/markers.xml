@@ -2,7 +2,7 @@
 <carto>
   <markers>
     <marker name="MERRION SQUARE EAST" number="25" address="Merrion Square East" fullAddress="Merrion Square East  " lat="53.339434" lng="-6.246548" open="1" bonus="0"/>
-    <marker name="MERRION SQUARE WEST" number="26" address="Merrion Square West" fullAddress="Merrion Square West  " lat="53.339764" lng="-6.251988" open="0" bonus="0"/>
+    <marker name="MERRION SQUARE WEST" number="26" address="Merrion Square West" fullAddress="Merrion Square West  " lat="53.339764" lng="-6.251988" open="1" bonus="0"/>
     <marker name="MOLESWORTH STREET" number="27" address="Molesworth Street" fullAddress="Molesworth Street  " lat="53.341288" lng="-6.258117" open="1" bonus="0"/>
     <marker name="MOUNTJOY SQUARE WEST" number="28" address="Mountjoy Square West" fullAddress="Mountjoy Square West  " lat="53.356299" lng="-6.258586" open="1" bonus="0"/>
     <marker name="ORMOND QUAY UPPER" number="29" address="Ormond Quay Upper" fullAddress="Ormond Quay Upper  " lat="53.346057" lng="-6.268001" open="1" bonus="0"/>
