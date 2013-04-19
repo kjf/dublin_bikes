@@ -18,7 +18,7 @@ module DublinBikes
     end
 
     def closed?
-      !open
+      !open?
     end
 
     def distance_to(m_lat, m_lng)
