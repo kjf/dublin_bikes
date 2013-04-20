@@ -8,7 +8,7 @@ module DublinBikes
     has_many :markers, DublinBikes::Marker
 
     def closest_to(lat, lng)
-      @markers.sort_by { |marker| marker.distance_to(lat, lng) }.first
+      @markers.sort_by { |marker| marker.distance_to(lat, lng) }
     end
   end
 end
