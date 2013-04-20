@@ -11,7 +11,7 @@ module DublinBikes
     attribute :open, Integer
     attribute :bonus, Integer
 
-    remove_method :open, :bonus, :full_address
+    remove_method :open, :bonus, :full_address, :number
 
     def open?
       @open == 1
@@ -19,6 +19,10 @@ module DublinBikes
 
     def closed?
       !open?
+    end
+
+    def id
+      @number
     end
 
     def distance_to(m_lat, m_lng)

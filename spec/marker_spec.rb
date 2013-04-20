@@ -15,4 +15,9 @@ describe DublinBikes::Marker do
     open_marker = @marker_list.markers[1]
     open_marker.closed? == false
   end
+
+  it "has an id" do
+    marker = @marker_list.markers.first
+    marker.id.should == 25
+  end
 end
