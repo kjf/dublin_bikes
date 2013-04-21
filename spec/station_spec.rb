@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe DublinBikes::Station do
+describe DublinBikes::ApiStation do
   before do
-    @station = DublinBikes::Station.parse(File.open('spec/fixtures/station.xml'))
+    @station = DublinBikes::ApiStation.parse(File.open('spec/fixtures/station.xml'))
   end
 
   it "has bikes available" do

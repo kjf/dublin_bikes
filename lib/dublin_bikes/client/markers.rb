@@ -5,7 +5,7 @@ module DublinBikes
         @_marker_list ||= begin
           response = get('carto')
           payload = response.body
-          DublinBikes::MarkerList.parse(payload, single: true)
+          DublinBikes::ApiMarkerList.parse(payload, single: true)
         end
       end
 

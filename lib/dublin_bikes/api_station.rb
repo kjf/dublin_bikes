@@ -1,7 +1,7 @@
 require 'happymapper'
 
 module DublinBikes
-  class Station
+  class ApiStation
     include HappyMapper
     tag 'station'
     element :available, Integer

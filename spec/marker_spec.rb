@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe DublinBikes::Marker do
+describe DublinBikes::ApiMarker do
   before do
-    @marker_list = DublinBikes::MarkerList.parse(File.open('spec/fixtures/markers.xml'),
+    @marker_list = DublinBikes::ApiMarkerList.parse(File.open('spec/fixtures/markers.xml'),
       single: true)
   end
 

@@ -9,6 +9,6 @@ describe DublinBikes::Client::Markers do
     stub_request(:get, /.*carto$/).
       to_return(body: File.open('spec/fixtures/markers.xml'))
 
-    @client.marker_list.should be_a DublinBikes::MarkerList
+    @client.marker_list.should be_a DublinBikes::ApiMarkerList
   end
 end

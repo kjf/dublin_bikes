@@ -1,5 +1,5 @@
 module DublinBikes
-  class Marker
+  class ApiMarker
     include HappyMapper
     tag 'marker'
     attribute :name, String

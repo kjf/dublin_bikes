@@ -4,7 +4,7 @@ module DublinBikes
       def station(id)
         response = get("stationdetails/dublin/#{id}")
         payload = response.body
-        DublinBikes::Station.parse(payload)
+        DublinBikes::ApiStation.parse(payload)
       end
     end
   end
