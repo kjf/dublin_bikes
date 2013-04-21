@@ -29,7 +29,7 @@ db.stations
 # get a list of stations ordered by location
 db.stations_closest_to(53.344304, -6.250427)
 
-# check the status of a particular station
+# check the status of a particular station by passing in its id
 db.station_status(1)
 
 ```
