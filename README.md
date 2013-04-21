@@ -1,6 +1,6 @@
 # DublinBikes
 
-TODO: Write a gem description
+A simple ruby wrapper around the (unofficial) dublin bikes api
 
 ## Installation
 
@@ -18,7 +18,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+
+# instantiate the client
+db = DublinBikes.new
+
+# get a list of stations
+db.stations
+
+# get a list of stations ordered by location
+db.stations_closest_to(53.344304, -6.250427)
+
+# check the status of a particular station
+db.station_status(1)
+
+```
 
 ## Contributing
 

@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = DublinBikes::VERSION
   spec.authors       = ["Kevin Fagan"]
   spec.email         = ["kevin@tinktank.ie"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Dublin Bikes gem}
+  spec.summary       = %q{A simple ruby wrapper around the dublin bikes api}
+  spec.homepage      = "https://github.com/kjf/dublin_bikes"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
