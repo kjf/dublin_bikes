@@ -31,6 +31,7 @@ db.stations_closest_to(53.344304, -6.250427)
 
 # check the status of a particular station by passing in its id
 db.station_status(1)
+#<DublinBikes::StationStatus:0x007fb98d841ab8 @available_bikes=1, @free_spaces=19, @total_capacity=20, @open=true, @accepts_credit_card=false, @updated_at=2013-05-03 19:12:04 +0100>
 
 ```
 
