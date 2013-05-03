@@ -4,6 +4,6 @@ require 'dublin_bikes'
 require 'pry'
 
 db = DublinBikes.new
-p db.stations
-p db.stations_closest_to(53.344304, -6.250427)
-p db.station_status 1
+# p db.stations
+# p db.stations_closest_to(53.344304, -6.250427)
+p db.station_status 3

@@ -6,8 +6,8 @@ module DublinBikes
       @available_bikes = station.available
       @free_spaces = station.free
       @total_capacity = station.total
-      @open = station.open == 1 ? true : false
-      @accepts_credit_card = station.ticket == 1 ? true : false
+      @open = station.open == 1
+      @accepts_credit_card = station.ticket == 1
       @updated_at = Time.at(station.updated)
     end
 
